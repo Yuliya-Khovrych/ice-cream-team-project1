@@ -1,8 +1,8 @@
 'use strict';
 
-window.addEventListener('load', windoLoad);
+window.addEventListener('load', windowLoad);
 
-function windoLoad() {
+function windowLoad() {
   function digitsCountersInit(digitsCountersItems) {
     let digitsCounters = digitsCountersItems
       ? digitsCountersItems
